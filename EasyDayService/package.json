@@ -1,0 +1,39 @@
+{
+	"name": "easydayservice",
+	"version": "1.0.0",
+	"description": "Service used for my easyday App which is going to be used for maintaining labour data on daily basis.",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ./index.js",
+		"dev": "nodemon ./index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/vigneshwarBhat/easyday.git"
+	},
+	"keywords": [
+		"easyday",
+		"easy",
+		"day"
+	],
+	"author": "vighneshwar bhat",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/vigneshwarBhat/easyday/issues"
+	},
+	"homepage": "https://github.com/vigneshwarBhat/easyday#readme",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"helmet": "^4.6.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.0.14",
+		"morgan": "^1.10.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
